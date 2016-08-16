@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FLKAutoLayout (0.2.1)
+  - Masonry (1.0.1)
+  - MLEmojiLabel (1.0.0):
+    - TTTAttributedLabel (~> 1.13.4)
+  - ORStackView (3.0.1):
+    - FLKAutoLayout (~> 0.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SwiftyJSON (2.3.2)
+  - TTTAttributedLabel (1.13.4)
+  - WhdeForm (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Masonry
+  - MLEmojiLabel (~> 1.0.0)
+  - ORStackView (~> 3.0)
+  - SDWebImage (~> 3.7.6)
+  - SwiftyJSON (~> 2.3)
+  - WhdeForm (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MLEmojiLabel: ceeab17d10d296cc00636bf201c8da597fdede10
+  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  WhdeForm: a651f64ccfd0f28c9ae1f5ef003a98974fe4dfcd
+
+PODFILE CHECKSUM: cf4fb0d59d2854373cb6222651033b7b7e85af01
+
+COCOAPODS: 1.0.0

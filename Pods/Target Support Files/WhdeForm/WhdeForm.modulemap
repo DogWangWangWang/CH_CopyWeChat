@@ -1,0 +1,6 @@
+framework module WhdeForm {
+  umbrella header "WhdeForm-umbrella.h"
+
+  export *
+  module * { export * }
+}

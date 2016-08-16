@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+
+
+target 'CH_CopyWeChat' do
+  pod 'AFNetworking', '~> 2.6'
+  pod 'ORStackView', '~> 3.0'
+  pod 'SwiftyJSON', '~> 2.3'
+  pod 'SDWebImage', '~> 3.7.6'
+  pod 'WhdeForm', '~> 1.0.0'
+  pod 'MLEmojiLabel', '~> 1.0.0'
+  pod 'Masonry'
+end

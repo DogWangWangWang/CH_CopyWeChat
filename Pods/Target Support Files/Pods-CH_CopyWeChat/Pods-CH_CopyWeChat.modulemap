@@ -1,0 +1,6 @@
+framework module Pods_CH_CopyWeChat {
+  umbrella header "Pods-CH_CopyWeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
