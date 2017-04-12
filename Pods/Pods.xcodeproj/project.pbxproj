@@ -91,7 +91,6 @@
 		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD97FF8DDE3D930CD1EE438C91CFFF8 /* UIWebView+AFNetworking.m */; };
 		7DA82AAE44CDD2AEB4D58455EE9FE8E8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 170DA4F504BA91F7066FEE987BF79ECF /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7DD16CA976E0FE4FC11E9BF939BFF754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C153F31A1CA04AC361A386C4964B48 /* Foundation.framework */; };
-		7FDC978A9C81DC20D18848F38CF27B94 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8111EC1333165E4E6E26142DE042AF /* SwiftyJSON.swift */; };
 		804FBF5FF5CE6F2F45CA96DE86D5402E /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C8647E57A3E2D4FA68CC11413C11C /* UIView+FLKAutoLayoutPredicate.m */; };
 		83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7F9E3FA65587364A60B3029B53D1E /* ViewController+MASAdditions.m */; };
 		855EB528D16B02EABA25BA3DB47EAA8F /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F788A82AB872FA52B8C06741A6533E4 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -265,7 +264,6 @@
 		0982681E9F74ECBA3C5774415DBB14BA /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
 		09D4683FB3B756651651F8C84B5BCF4E /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
 		09E44F0AA49DD43B54CAF0CAF5B252F6 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		0B8111EC1333165E4E6E26142DE042AF /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		0C521090A708668C9A2357A96A956179 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		0CD7D4FB924117B5C76537FF43661673 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		0DC7F3A52CF258CE2C3981D5B770A693 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
@@ -941,7 +939,6 @@
 		CA462764C8666199FBFF14776EC4BFAE /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				0B8111EC1333165E4E6E26142DE042AF /* SwiftyJSON.swift */,
 				E195F09E7F7435DAD531A8E8DC643263 /* Support Files */,
 			);
 			path = SwiftyJSON;
@@ -1386,6 +1383,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					1288CC2876F1E4130F1C5CC59D97F22E = {
+						LastSwiftMigration = 0830;
+					};
+					5B994AC711A4A90A11CFFA8BB9653D11 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1433,7 +1438,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7082462188DAE7FFD69864EFBC2AFB4E /* SwiftyJSON-dummy.m in Sources */,
-				7FDC978A9C81DC20D18848F38CF27B94 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1880,6 +1884,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1967,6 +1972,7 @@
 				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2116,6 +2122,7 @@
 				PRODUCT_NAME = Pods_CH_CopyWeChat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2271,6 +2278,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
